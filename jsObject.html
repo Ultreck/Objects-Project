@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="jsObject.css">
+      <script src="jsObject.js" defer></script>
+</head>
+<body>
+      <script>
+            persons = [{"name":"Chris", "Age": 4}, {"name":"Debbie", "Age": 5}, {"name":"David", "Age": 8}]; 
+            // when wanted to send the Object and arrays to any  other language using JSON
+            jp = persons.stringify();
+            // when receive any data from other language i have  to convert it to string using JSON
+            jp = persons.parse();
+      
+
+      </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+      <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css">
+      <script src="assignment.js" defer></script>
+</head>
+<body>
+     <div class="container1 text-white pt-3 mx-auto col-9 col-md-4">
+            <div class="form  form-control text-white  bg-danger p-4">
+                  <label for="firstName">First Name:</label>
+                  <input class="rounded border-0" type="text" id="first"><br><br>
+                  <label for="firstName">Last Name:</label>
+                  <input class="rounded border-0" type="text" id="last">
+                  <div class=" w-50 mx-auto"><br>
+                        <button class="btn btn-primary text-white  rounded " id="btn" onclick="addPersonInfo()"><b>Submit</b></button>
+                        <button class="btn btn-warning rounded" id="btn" onclick="displayInfo()"><b>Display</b></button>
+                  </div><br>
+            </div>
+     </div>
+    
+     <div class="container2 h5">
+           <table class="table table-bordered w-75 mx-auto mt-4 table-striped table-hover">
+               <thead class="thead">
+                  <tr>
+                        <th class="child is">S/n</th>
+                        <th class="child">First Name</th>
+                        <th class="child">Last Name</th>
+                        <th class="child">Unique Id</th>
+                  </tr>
+               </thead>
+              <tbody id="display" width=""> </tbody>
+           </table>
+     </div>
+
+
+
+
+</body>
+<script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</html>
